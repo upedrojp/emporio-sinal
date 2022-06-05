@@ -17,35 +17,35 @@
         padding-right: 1.8rem;
     }
 
-    #home {
+    #laranja {
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
-    #services {
+    #ovos {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
 
-    #pricing {
+    #cocos {
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
-    #support {
+    #abacaxi {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
 
-    #contact {
+    #contato {
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -131,6 +131,14 @@
         padding: 0.6rem 0;
     }
 
+    .menu-items li i {
+        padding: 0.6rem 0;
+    }
+
+    .menu-items li w {
+        padding: 0.6rem 0;
+    }
+
     .menu-items .explore-btn {
         padding: 1rem 0 1.8rem 0;
     }
@@ -180,12 +188,22 @@
 
 @media screen and (max-width: 580px) {
     .navbar .logo {
-        top: 1.2rem;
+        top: 1.7rem;
     }
 
     .navbar .logo a {
-        padding-left: 0.2rem;
-        font-size: 1.3rem;
+        padding-left: 0.4rem;
+        font-size: 1.0rem;
+    }
+
+    .navbar .logo i {
+        padding-left: 0.4rem;
+        font-size: 1.0rem;
+    }
+
+    .navbar .logo w {
+        padding-left: 0.4rem;
+        font-size: 1.0rem;
     }
 }
 
@@ -224,7 +242,17 @@
         margin-top: 1.2rem;
     }
 
-    .buttons a {
+    .buttons a{
+        font-size: 1rem;
+        padding: 0.6rem 2rem;
+    }
+
+    .buttons i{
+        font-size: 1rem;
+        padding: 0.6rem 2rem;
+    }
+
+    .buttons w{
         font-size: 1rem;
         padding: 0.6rem 2rem;
     }
@@ -252,6 +280,17 @@
         padding: 0.5rem 1.8rem;
     }
 
+    .buttons i {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.8rem;
+    }
+
+    .buttons w {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.8rem;
+    }
+
+
     footer p {
         font-size: 0.8rem;
     }
@@ -267,6 +306,14 @@
     }
 
     .buttons a {
+        margin-right: 0.6rem;
+    }
+
+    .buttons i {
+        margin-right: 0.6rem;
+    }
+
+    .buttons w {
         margin-right: 0.6rem;
     }
 
@@ -296,6 +343,14 @@
         font-size: 1.4rem;
     }
 
+    .navbar .logo i {
+        font-size: 1.4rem;
+    }
+
+    .navbar .logo w {
+        font-size: 1.4rem;
+    }
+
     .nav-toggler {
         top: 2.5rem;
         right: 1.2rem;
@@ -307,4 +362,15 @@
         font-size: 0.9rem;
         padding: 0.5rem 1.4rem;
     }
+
+    .buttons w {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.4rem;
+    }
+
+    .buttons i {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.4rem;
+    }
+
 }

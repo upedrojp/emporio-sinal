@@ -1,9 +1,4 @@
-/* =====================================
-#    Template name: Creative Agency
-#    Author: Md. Riazul Islam
-#    Author URI: https://github.com/riazul82
-#    Date: November, 2021 
-======================================= */
+
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -12,9 +7,6 @@
 @import url('./icon.css');
 
 
-/* ====================
-    Global settings 
-====================== */
 
 * {
     margin: 0;
@@ -109,6 +101,35 @@ img {
     border-radius: 2rem;
 }
 
+/*cor do botao whatsapp */
+.buttons w {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    padding: 0.8rem 2.4rem;
+    background: #00f128;
+    border-radius: 2rem;;
+}
+
+/*cor do botao instagram */
+.buttons i {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    padding: 0.8rem 2.4rem;
+    background: #f100dd;
+    border-radius: 2rem;;
+}
+
+
 /* =======================
     Global settings end
 ========================= */
@@ -145,7 +166,7 @@ img {
 
 .navbar .logo a {
     color: #41435a;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 700;
     text-decoration: none;
 }
@@ -180,10 +201,38 @@ img {
     transition: color 0.3s ease;
 }
 
+.menu-items li w {
+    color: #39395c;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.menu-items li i {
+    color: #39395c;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+
 .menu-items li a:hover {
     color: #f16d00;
 }
 
+.menu-items li w:hover {
+    color: #00df07;
+}
+
+.menu-items li i:hover {
+    color: #f10095;
+}
 .menu-items .explore-btn {
     margin-left: 0.4rem;
 }
@@ -212,7 +261,7 @@ img {
     display: -ms-flexbox;
     display: flex;
     height: 2rem;
-    width: 2rem;
+    width: 1.0rem;
     display: none;
     cursor: pointer;
     -webkit-box-align: center;
@@ -360,6 +409,15 @@ footer p a {
     color: #f16d00;
 }
 
+footer p i {
+    text-decoration: none;
+    color: #f100a1;
+}
+
+footer p w {
+    text-decoration: none;
+    color: #00f160;
+}
 /* =======================
     Section content end
 ========================= */
